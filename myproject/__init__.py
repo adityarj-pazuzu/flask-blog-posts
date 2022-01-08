@@ -1,6 +1,6 @@
 from flask import Flask
 
-from commands import create_tables
+from .commands import create_tables
 from .extentions import db, login_manager
 
 
